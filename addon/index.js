@@ -1,9 +1,9 @@
 import Ember from 'ember';
-import getOwner from 'ember-getowner-polyfill';
 
 const {
   computed,
   get,
+  getOwner,
   inject,
   run: { next },
 } = Ember;
